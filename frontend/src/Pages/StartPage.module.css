@@ -1,0 +1,81 @@
+body, p, h1, h2{
+    color: white;
+    background-color: rgb(26, 59, 80);
+    font-size: larger;
+    font-weight: bold;
+}
+
+.gameContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.startBtn{
+    justify-content: center;
+    border: 4px solid white;
+    background-color: white;
+    border-radius: 6px;
+    width: 20vh;
+    height: 6vh;
+    font-size: larger;
+    margin: 1em;
+}
+
+.galleryBtn{
+    justify-content: center;
+    border: 4px solid white;
+    background-color: white;
+    border-radius: 6px;
+    width: 20vh;
+    height: 6vh;
+    font-size: larger;
+    margin: 1em;
+}
+
+.linkStyling{
+    text-decoration: none;
+    text-align: center;
+}
+
+.startDescription{
+    text-align:center;
+}
+
+.competingHamsters{
+    text-align: center;
+}
+
+.playerOne{
+    display: flex;
+    justify-content: center;
+}
+
+.playerTwo{
+    display: flex;
+    justify-content: center;
+}
+
+.showStats{
+    display: flex;
+    justify-content: space-between;
+    gap: 2vh;
+}
+
+.showWinner{
+display: flex;
+justify-content: center;
+}
+
+.nextBattleBtn{
+    justify-content: center;
+    border: 4px solid white;
+    background-color: white;
+    border-radius: 6px;
+    width: 20vh;
+    height: 6vh;
+    font-size: larger;
+    margin: 6vh auto;
+    display: flex;
+    align-items: center;
+}

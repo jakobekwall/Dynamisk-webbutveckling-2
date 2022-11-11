@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.infoContainer{
+    display: inline-block;
+    margin-top: 4vh;
+    margin-left: 0 auto;
+}
+
+.newFight{
+    justify-content: center;
+    border: 4px solid white;
+    background-color: white;
+    border-radius: 6px;
+    width: 20vh;
+    height: 6vh;
+    font-size: larger;
+    margin-top: 10vh;;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+}
