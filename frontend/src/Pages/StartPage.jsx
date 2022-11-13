@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import InfoPage from './InfoPage';
 import GalleryPage from './GalleryPage';
 import styles from "./StartPage.module.css"
+import { baseURL } from '../UTLS/baseURL';
 
 export default function StartPage() {
 
@@ -22,7 +23,7 @@ export default function StartPage() {
 
 
     async function getHamstersh() {
-        const response = await fetch('http://localhost:5000/getHamsters', {
+        const response = await fetch(`${baseURL}/getHamsters `, {
             method: 'GET',
             headers: {
                 "Content-Type": "application/json"
