@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from 'react';
 import styles from "./InfoPage.module.css"
+import { baseURL } from '../UTLS/baseURL';
 
 export default function InfoPage() {
 

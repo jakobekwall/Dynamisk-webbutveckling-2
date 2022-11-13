@@ -2,6 +2,7 @@ import React from 'react'
 import { useLocation, Link } from 'react-router-dom'
 import { useState, useEffect } from 'react';
 import styles from "./GalleryPage.module.css"
+import { baseURL } from '../UTLS/baseURL';
 
 
 export default function GalleryPage() {
