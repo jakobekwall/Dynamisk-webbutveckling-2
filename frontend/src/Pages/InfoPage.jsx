@@ -9,7 +9,7 @@ export default function InfoPage() {
     const location = useLocation();
 
     async function getHamstersh() {
-        const response = await fetch('http://localhost:5000/getHamsters', {
+        const response = await fetch(`${baseURL}/getHamsters `, {
             method: 'GET',
             headers: {
                 "Content-Type": "application/json"

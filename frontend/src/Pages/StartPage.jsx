@@ -40,7 +40,7 @@ export default function StartPage() {
             loser: playerOne._id === hamster._id ? playerTwo : playerOne
         }
 
-        const response = await fetch('http://localhost:5000/hamsterChampion', {
+        const response = await fetch(`${baseURL}/hamsterChampion`, {
             method: 'PUT',
             body: JSON.stringify(hamsterStats),
             headers: {

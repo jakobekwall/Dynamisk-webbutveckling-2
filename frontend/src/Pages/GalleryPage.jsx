@@ -22,7 +22,7 @@ export default function GalleryPage() {
 
 
     async function getHamstersh() {
-        const response = await fetch('http://localhost:5000/getHamsters', {
+        const response = await fetch(`${baseURL}/getHamsters `, {
             method: 'GET',
             headers: {
                 "Content-Type": "application/json"
@@ -45,7 +45,7 @@ export default function GalleryPage() {
             defeats: defeats
 
         }
-        const response = await fetch('http://localhost:5000/createNewHamster', {
+        const response = await fetch(`${baseURL}/createNewHamster `, {
             method: 'POST',
             body: JSON.stringify(newHamster),
             headers: {
@@ -61,7 +61,7 @@ export default function GalleryPage() {
 
 
     async function removeHamster(id) {
-        const response = await fetch('http://localhost:5000/deleteHamster', {
+        const response = await fetch(`${baseURL}/deleteHamster `, {
             method: 'DELETE',
             body: JSON.stringify({ id }),
             headers: {
